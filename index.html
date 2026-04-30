@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- PRIMARY SEO -->
+  <title>Persikka.net – Suomalainen gay-sovellus | Finnish gay app</title>
+  <meta name="description" content="Persikka on suomalainen sosiaalinen sovellus gay-miehille. Löydä ihmisiä läheltäsi, chattaile ja luo profiilisi. Ilman mainoksia. Vaihtoehto Grindrille." />
+  <meta name="keywords" content="gay app finland, grindr vaihtoehto, suomalainen gay sovellus, homo chat suomi, gay chat finland, lgbtq sovellus suomi, gay men finland, grindr alternative finland, homo deittisovellus, persikka" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Persikka.net" />
+  <link rel="canonical" href="https://persikka.net/" />
+
+  <!-- HREFLANG for bilingual -->
+  <link rel="alternate" hreflang="fi" href="https://persikka.net/" />
+  <link rel="alternate" hreflang="en" href="https://persikka.net/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://persikka.net/" />
+
+  <!-- OPEN GRAPH (social sharing) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://persikka.net/" />
+  <meta property="og:title" content="Persikka.net – Suomalainen gay-sovellus" />
+  <meta property="og:description" content="Löydä ihmisiä läheltäsi, chattaile ja nauti yhteisöstä ilman mainoksia. Suomalainen vaihtoehto Grindrille." />
+  <meta property="og:image" content="https://persikka.net/og-image.png" />
+  <meta property="og:locale" content="fi_FI" />
+  <meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:site_name" content="Persikka.net" />
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Persikka.net – Suomalainen gay-sovellus" />
+  <meta name="twitter:description" content="Suomalainen vaihtoehto Grindrille. Ilman mainoksia." />
+  <meta name="twitter:image" content="https://persikka.net/og-image.png" />
+
+  <!-- STRUCTURED DATA: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Persikka.net",
+    "url": "https://persikka.net",
+    "applicationCategory": "SocialNetworkingApplication",
+    "operatingSystem": "Web",
+    "description": "Persikka on suomalainen sosiaalinen sovellus gay-miehille. Löydä ihmisiä läheltäsi, chattaile ja luo profiilisi. Ilman mainoksia.",
+    "inLanguage": ["fi", "en"],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "featureList": [
+      "Etäisyyspohjainen löytäminen",
+      "Chattihuoneet",
+      "Yksityisviestit",
+      "Käyttäjäprofiilit",
+      "Ei mainoksia",
+      "Kirjautuminen ilman salasanaa"
+    ]
+  }
+  </script>
+
+  <!-- STRUCTURED DATA: FAQPage (catches Google's FAQ rich results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Mikä on Persikka.net?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Persikka.net on suomalainen sosiaalinen sovellus gay-miehille ja LGBTQ+-yhteisölle. Voit löytää ihmisiä läheltäsi, chattailla chattihuoneissa, lähettää yksityisviestejä ja selata profiileja. Sovellus on täysin ilman mainoksia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Miten Persikka eroaa Grindrista?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Persikka on suomalainen, ylpeästi kotimainen sovellus ilman mainoksia. Toisin kuin Grindr, Persikka ei myy käyttäjädataa mainostajille eikä näytä mainoksia. Sovellus tukee suomen ja englannin kieltä ja on suunniteltu positiiviselle, turvalliselle yhteisölle."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Persikka available in English?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Persikka.net is fully available in both Finnish and English. You can switch languages at any time in the app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Onko Persikka ilmainen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kyllä. Persikka on täysin ilmainen käyttää. Ei piilomaksuja, ei tilauksia, ei mainoksia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I find gay men in Finland?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Persikka.net is a Finnish social app for gay men that uses location-based discovery to show you people nearby. Simply create a free profile at persikka.net and start browsing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Tarvitseeko sovelluksen asentaa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ei. Persikka toimii suoraan selaimessa ilman sovelluksen asentamista. Avaa vain makea.persikka.net ja kirjaudu sisään."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --coral: #FF7B54;
+      --peach: #FFAB76;
+      --peach-light: #FFD4B2;
+      --blush: #FFB4C2;
+      --lavender: #E8C5F5;
+      --cream: #FFF8F0;
+      --text-dark: #3D1F00;
+      --text-mid: #7A4520;
+      --text-light: #B5763A;
+      --grad-hero: linear-gradient(135deg, #FFD4B2 0%, #FFAB76 35%, #FFB4C2 70%, #E8C5F5 100%);
+      --grad-text: linear-gradient(to right, #d946ef, #f43f5e, #fbbf24);
+      --grad-btn: linear-gradient(135deg, #FF7B54, #FFAB76);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--text-dark);
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 40px;
+      background: rgba(255,248,240,0.88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,171,118,0.18);
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 1.25rem; font-weight: 800;
+      background: var(--grad-text);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; text-decoration: none;
+    }
+    .nav-logo .peach { -webkit-text-fill-color: initial; }
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-links a {
+      text-decoration: none; color: var(--text-mid);
+      font-size: 0.9rem; font-weight: 500; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--coral); }
+    .lang-toggle {
+      display: flex; gap: 3px;
+      background: rgba(255,171,118,0.15); border-radius: 20px; padding: 3px;
+    }
+    .lang-btn {
+      border: none; background: transparent; padding: 4px 10px;
+      border-radius: 16px; font-size: 0.8rem; font-weight: 600;
+      color: var(--text-mid); cursor: pointer; transition: all 0.2s;
+    }
+    .lang-btn.active { background: var(--coral); color: white; }
+    .nav-cta {
+      background: var(--grad-btn); color: white;
+      border: none; padding: 10px 22px; border-radius: 24px;
+      font-size: 0.9rem; font-weight: 700; cursor: pointer;
+      text-decoration: none; box-shadow: 0 4px 15px rgba(255,123,84,0.35);
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .nav-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    /* ── STATUS ── */
+    .status-bar {
+      position: fixed; top: 68px; left: 50%; transform: translateX(-50%);
+      z-index: 99; display: flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.92); backdrop-filter: blur(8px);
+      padding: 5px 14px; border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      font-size: 0.78rem; font-weight: 500; color: var(--text-mid);
+      border: 1px solid rgba(255,171,118,0.2); white-space: nowrap;
+    }
+    .status-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: #ccc; flex-shrink: 0; transition: background 0.5s;
+    }
+    .status-dot.online  { background: #4CAF50; box-shadow: 0 0 6px rgba(76,175,80,0.5); animation: pulse 2s infinite; }
+    .status-dot.offline { background: #f44336; }
+    .status-dot.checking { background: #FF9800; animation: blink 1s infinite; }
+    @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.5} }
+    @keyframes blink  { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 130px 24px 80px;
+      background: var(--grad-hero); position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '🍑'; position: absolute; font-size: 420px; opacity: 0.055;
+      top: 50%; left: 50%; transform: translate(-50%,-50%);
+      pointer-events: none; user-select: none;
+    }
+    .hero-emoji { font-size: 4.5rem; margin-bottom: 14px; animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+
+    .hero h1 {
+      font-size: clamp(2.6rem, 6vw, 5rem);
+      font-weight: 800; line-height: 1.1; margin-bottom: 18px;
+      letter-spacing: -0.02em;
+      background: var(--grad-text);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      transition: opacity 0.5s ease; min-height: 1.2em;
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2.2vw, 1.3rem); color: var(--text-mid);
+      font-weight: 400; margin-bottom: 32px;
+      max-width: 540px; line-height: 1.6;
+      transition: opacity 0.5s ease; min-height: 2.8em;
+    }
+    .hero-dots { display: flex; gap: 8px; justify-content: center; margin-bottom: 36px; }
+    .hero-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: rgba(255,123,84,0.25); cursor: pointer;
+      border: none; transition: background 0.3s, transform 0.3s;
+    }
+    .hero-dot.active { background: var(--coral); transform: scale(1.35); }
+    .fade { opacity: 0 !important; }
+
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary {
+      background: var(--grad-btn); color: white;
+      border: none; padding: 15px 34px; border-radius: 30px;
+      font-size: 1rem; font-weight: 700; cursor: pointer;
+      text-decoration: none; display: inline-block;
+      box-shadow: 0 8px 24px rgba(255,123,84,0.4); transition: all 0.25s;
+    }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255,123,84,0.5); }
+    .btn-secondary {
+      background: rgba(255,255,255,0.7); color: var(--coral);
+      border: 2px solid rgba(255,123,84,0.3); padding: 13px 30px;
+      border-radius: 30px; font-size: 1rem; font-weight: 600;
+      text-decoration: none; display: inline-block;
+      backdrop-filter: blur(8px); transition: all 0.25s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.95); transform: translateY(-2px); }
+
+    /* ── SECTIONS ── */
+    section { padding: 88px 24px; }
+    .inner { max-width: 1080px; margin: 0 auto; }
+    .label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--coral); margin-bottom: 10px;
+    }
+    h2 {
+      font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 800;
+      color: var(--text-dark); margin-bottom: 14px; line-height: 1.2;
+    }
+    .desc {
+      font-size: 1rem; color: var(--text-mid); max-width: 480px;
+      line-height: 1.75; margin-bottom: 52px;
+    }
+
+    /* ── FEATURES GRID ── */
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white; border-radius: 20px; padding: 26px;
+      box-shadow: 0 4px 20px rgba(255,171,118,0.1);
+      border: 1px solid rgba(255,171,118,0.14);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(255,171,118,0.2); }
+    .card-icon { font-size: 2rem; margin-bottom: 12px; }
+    .card h3 { font-size: 1rem; font-weight: 700; color: var(--text-dark); margin-bottom: 7px; }
+    .card p { font-size: 0.88rem; color: var(--text-mid); line-height: 1.65; }
+
+    /* ── HOW IT WORKS ── */
+    .how-bg { background: var(--grad-hero); }
+    .steps { display: flex; gap: 0; flex-wrap: wrap; }
+    .step { flex: 1; min-width: 180px; text-align: center; padding: 20px; position: relative; }
+    .step:not(:last-child)::after {
+      content: '→'; position: absolute; right: -8px; top: 38px;
+      font-size: 1.4rem; color: var(--coral); opacity: 0.4;
+    }
+    .step-num {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--grad-btn); color: white;
+      font-size: 1.3rem; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 14px; box-shadow: 0 5px 16px rgba(255,123,84,0.35);
+    }
+    .step h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); margin-bottom: 7px; }
+    .step p { font-size: 0.86rem; color: var(--text-mid); line-height: 1.6; }
+
+    /* ── FAQ ── */
+    /* This section is CRITICAL for SEO — Google reads it as plain HTML */
+    .faq-list { max-width: 720px; }
+    details {
+      border-bottom: 1px solid rgba(255,171,118,0.2);
+      padding: 18px 0;
+    }
+    details:first-of-type { border-top: 1px solid rgba(255,171,118,0.2); }
+    summary {
+      font-size: 1rem; font-weight: 600; color: var(--text-dark);
+      cursor: pointer; list-style: none; display: flex;
+      justify-content: space-between; align-items: center;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+'; font-size: 1.3rem; color: var(--coral);
+      font-weight: 300; transition: transform 0.2s;
+    }
+    details[open] summary::after { content: '−'; }
+    details p {
+      font-size: 0.93rem; color: var(--text-mid);
+      line-height: 1.75; margin-top: 12px; max-width: 640px;
+    }
+
+    /* ── VIBE ── */
+    .vibe-box {
+      background: white; border-radius: 26px; padding: 52px 40px;
+      box-shadow: 0 8px 40px rgba(255,171,118,0.13);
+      max-width: 620px; margin: 0 auto; text-align: center;
+      border: 1px solid rgba(255,171,118,0.14);
+    }
+    .vibe-emoji { font-size: 3rem; margin-bottom: 18px; }
+    .vibe-box h2 { font-size: 1.7rem; margin-bottom: 12px; }
+    .vibe-box p { font-size: 0.97rem; color: var(--text-mid); line-height: 1.8; margin-bottom: 26px; }
+    .tags { display: flex; gap: 9px; flex-wrap: wrap; justify-content: center; }
+    .tag {
+      background: #FFF0E6; color: var(--text-mid);
+      padding: 6px 15px; border-radius: 20px; font-size: 0.83rem; font-weight: 500;
+    }
+
+    /* ── CTA BANNER ── */
+    .cta-section {
+      background: var(--grad-btn); text-align: center; padding: 88px 24px;
+      position: relative; overflow: hidden;
+    }
+    .cta-section::before {
+      content: '🍑'; font-size: 280px; opacity: 0.09;
+      position: absolute; top: 50%; right: -40px; transform: translateY(-50%);
+      pointer-events: none;
+    }
+    .cta-section h2 {
+      font-size: clamp(1.8rem, 4vw, 3rem); color: white; margin-bottom: 12px;
+    }
+    .cta-section p { font-size: 1.05rem; color: rgba(255,255,255,0.85); margin-bottom: 32px; }
+    .btn-white {
+      background: white; color: var(--coral);
+      border: none; padding: 15px 38px; border-radius: 30px;
+      font-size: 1rem; font-weight: 700; cursor: pointer;
+      text-decoration: none; display: inline-block;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.14); transition: all 0.25s;
+    }
+    .btn-white:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,0.2); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--text-dark); color: rgba(255,255,255,0.55);
+      padding: 38px 40px 26px;
+    }
+    .footer-inner {
+      max-width: 1080px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 18px;
+    }
+    .footer-logo {
+      font-weight: 800; font-size: 1.1rem; text-decoration: none;
+      background: var(--grad-text);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .footer-links { display: flex; gap: 18px; flex-wrap: wrap; }
+    .footer-links a {
+      color: rgba(255,255,255,0.45); text-decoration: none;
+      font-size: 0.84rem; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--peach); }
+    .footer-copy { font-size: 0.78rem; text-align: center; margin-top: 18px; }
+
+    @media (max-width: 640px) {
+      nav { padding: 14px 18px; }
+      .nav-links { display: none; }
+      .step:not(:last-child)::after { display: none; }
+      .vibe-box { padding: 36px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <a class="nav-logo" href="https://persikka.net">
+    <span class="peach">🍑</span> Persikka
+  </a>
+  <div class="nav-links">
+    <a href="#features"  data-fi="Ominaisuudet" data-en="Features">Ominaisuudet</a>
+    <a href="#how"       data-fi="Miten toimii"  data-en="How it works">Miten toimii</a>
+    <a href="#faq"       data-fi="UKK"            data-en="FAQ">UKK</a>
+    <a href="https://makea.persikka.net/about"    data-fi="Tietoa"  data-en="About">Tietoa</a>
+    <a href="https://makea.persikka.net/privacy"  data-fi="Tietosuoja" data-en="Privacy">Tietosuoja</a>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('fi')">FI</button>
+      <button class="lang-btn"        onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+  <a class="nav-cta" href="https://makea.persikka.net"
+     data-fi="Kirjaudu sisään" data-en="Sign in">Kirjaudu sisään</a>
+</nav>
+
+<!-- STATUS BAR -->
+<div class="status-bar" id="statusBar">
+  <div class="status-dot checking" id="statusDot"></div>
+  <span id="statusText">Tarkistetaan palvelua…</span>
+</div>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-emoji" aria-hidden="true">🍑</div>
+  <h1 id="heroTitle">Kiva kuin karhun syli.</h1>
+  <p class="hero-sub" id="heroSub">Käyttäjälähtöiset toiminnot ilman rasittavia mainoksia.</p>
+  <div class="hero-dots" id="heroDots" role="tablist" aria-label="Tagline navigation"></div>
+  <div class="hero-btns">
+    <a class="btn-primary" href="https://makea.persikka.net/register"
+       data-fi="Luo ilmainen tili" data-en="Create free account">Luo ilmainen tili</a>
+    <a class="btn-secondary" href="https://makea.persikka.net"
+       data-fi="Kirjaudu sisään" data-en="Sign in">Kirjaudu sisään</a>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" aria-label="Ominaisuudet">
+  <div class="inner">
+    <p class="label" data-fi="OMINAISUUDET" data-en="FEATURES">OMINAISUUDET</p>
+    <h2 data-fi="Kaikki mitä tarvitset, yhdessä paikassa." data-en="Everything you need, in one place.">Kaikki mitä tarvitset, yhdessä paikassa.</h2>
+    <p class="desc" data-fi="Persikka on kevyt, nopea ja iloinen — ilman mainoksia ja ilman turhaa monimutkaisuutta." data-en="Persikka is light, fast and joyful — no ads, no unnecessary complexity.">Persikka on kevyt, nopea ja iloinen — ilman mainoksia ja ilman turhaa monimutkaisuutta.</p>
+    <div class="grid">
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">📍</div>
+        <h3 data-fi="Löydä läheltä" data-en="Discover nearby">Löydä läheltä</h3>
+        <p data-fi="Näe kuka on lähellä ja ota yhteyttä. Etäisyyspohjainen löytäminen tekee tutustumisesta helppoa." data-en="See who's near you and reach out. Distance-based discovery makes meeting people easy.">Näe kuka on lähellä ja ota yhteyttä. Etäisyyspohjainen löytäminen tekee tutustumisesta helppoa.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">💬</div>
+        <h3 data-fi="Chattihuoneet" data-en="Chat rooms">Chattihuoneet</h3>
+        <p data-fi="Liity avoimiin chattihuoneisiin ja tapaa uusia ihmisiä rennossa, turvallisessa ympäristössä." data-en="Join open chat rooms and meet new people in a relaxed, safe environment.">Liity avoimiin chattihuoneisiin ja tapaa uusia ihmisiä rennossa, turvallisessa ympäristössä.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🔒</div>
+        <h3 data-fi="Yksityisviestit" data-en="Private messages">Yksityisviestit</h3>
+        <p data-fi="Jatka keskustelua yksityisesti. Viestit ovat vain sinun ja vastaanottajan välisiä." data-en="Continue conversations privately. Messages stay between you and the recipient.">Jatka keskustelua yksityisesti. Viestit ovat vain sinun ja vastaanottajan välisiä.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">✨</div>
+        <h3 data-fi="Oma profiili" data-en="Your own profile">Oma profiili</h3>
+        <p data-fi="Luo profiili joka kertoo kuka olet. Lisää kuvia ja tietoja — anna persoonallisuutesi loistaa." data-en="Create a profile that shows who you are. Add photos and info — let your personality shine.">Luo profiili joka kertoo kuka olet. Lisää kuvia ja tietoja — anna persoonallisuutesi loistaa.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🚫</div>
+        <h3 data-fi="Ei mainoksia, koskaan" data-en="No ads, ever">Ei mainoksia, koskaan</h3>
+        <p data-fi="Persikka on tehty käyttäjiä varten, ei mainostajia. Nauti puhtaasta käyttökokemuksesta." data-en="Persikka is built for users, not advertisers. Enjoy a clean experience.">Persikka on tehty käyttäjiä varten, ei mainostajia. Nauti puhtaasta käyttökokemuksesta.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🔑</div>
+        <h3 data-fi="Kirjaudu ilman salasanaa" data-en="Passwordless login">Kirjaudu ilman salasanaa</h3>
+        <p data-fi="Lähetämme 6-numeroisen koodin sähköpostiisi. Ei salasanoja muistettavana." data-en="We send a 6-digit code to your email. No passwords to remember.">Lähetämme 6-numeroisen koodin sähköpostiisi. Ei salasanoja muistettavana.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-bg" id="how" aria-label="Miten toimii">
+  <div class="inner">
+    <p class="label" data-fi="MITEN TOIMII" data-en="HOW IT WORKS">MITEN TOIMII</p>
+    <h2 data-fi="Kolme askelta yhteyteen." data-en="Three steps to connection.">Kolme askelta yhteyteen.</h2>
+    <p class="desc" data-fi="Pääset mukaan muutamassa minuutissa — ilman sovelluksen asentamista." data-en="You're in within minutes — no app installation needed.">Pääset mukaan muutamassa minuutissa — ilman sovelluksen asentamista.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num" aria-hidden="true">1</div>
+        <h3 data-fi="Luo profiili" data-en="Create a profile">Luo profiili</h3>
+        <p data-fi="Rekisteröidy sähköpostillasi ja tee itsesi näkyväksi yhteisölle." data-en="Sign up with your email and make yourself visible to the community.">Rekisteröidy sähköpostillasi ja tee itsesi näkyväksi yhteisölle.</p>
+      </div>
+      <div class="step">
+        <div class="step-num" aria-hidden="true">2</div>
+        <h3 data-fi="Löydä ihmisiä" data-en="Discover people">Löydä ihmisiä</h3>
+        <p data-fi="Selaa profiileja läheltäsi ja löydä mielenkiintoisia ihmisiä." data-en="Browse profiles near you and find interesting people.">Selaa profiileja läheltäsi ja löydä mielenkiintoisia ihmisiä.</p>
+      </div>
+      <div class="step">
+        <div class="step-num" aria-hidden="true">3</div>
+        <h3 data-fi="Ota yhteyttä" data-en="Connect">Ota yhteyttä</h3>
+        <p data-fi="Chattaile yksityisesti tai yhteisessä huoneessa ja rakenna aitoja yhteyksiä." data-en="Chat privately or in a shared room and build genuine connections.">Chattaile yksityisesti tai yhteisessä huoneessa ja rakenna aitoja yhteyksiä.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ — critical for SEO -->
+<section id="faq" aria-label="Usein kysytyt kysymykset">
+  <div class="inner">
+    <p class="label" data-fi="UKK" data-en="FAQ">UKK</p>
+    <h2 data-fi="Usein kysytyt kysymykset" data-en="Frequently asked questions">Usein kysytyt kysymykset</h2>
+    <p class="desc" data-fi="Vastauksia yleisimpiin kysymyksiin Persikasta." data-en="Answers to the most common questions about Persikka.">Vastauksia yleisimpiin kysymyksiin Persikasta.</p>
+    <div class="faq-list">
+
+      <details>
+        <summary data-fi="Mikä on Persikka.net?" data-en="What is Persikka.net?">Mikä on Persikka.net?</summary>
+        <p data-fi="Persikka.net on suomalainen sosiaalinen sovellus gay-miehille ja LGBTQ+-yhteisölle. Voit löytää ihmisiä läheltäsi, chattailla, lähettää yksityisviestejä ja selata profiileja. Sovellus on täysin ilman mainoksia ja toimii suoraan selaimessa." data-en="Persikka.net is a Finnish social app for gay men and the LGBTQ+ community. You can discover people nearby, chat in rooms, send private messages, and browse profiles. The app is completely ad-free and runs directly in your browser.">Persikka.net on suomalainen sosiaalinen sovellus gay-miehille ja LGBTQ+-yhteisölle. Voit löytää ihmisiä läheltäsi, chattailla, lähettää yksityisviestejä ja selata profiileja. Sovellus on täysin ilman mainoksia ja toimii suoraan selaimessa.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Miten Persikka eroaa Grindrista?" data-en="How is Persikka different from Grindr?">Miten Persikka eroaa Grindrista?</summary>
+        <p data-fi="Persikka on ylpeästi suomalainen sovellus ilman mainoksia. Toisin kuin Grindr, Persikka ei myy käyttäjädataa mainostajille eikä näytä mainoksia. Sovellus on suunniteltu positiiviselle, turvalliselle yhteisölle ja tukee sekä suomea että englantia." data-en="Persikka is a proudly Finnish app with no ads. Unlike Grindr, Persikka does not sell user data to advertisers and shows no ads. It is designed for a positive, safe community and supports both Finnish and English.">Persikka on ylpeästi suomalainen sovellus ilman mainoksia. Toisin kuin Grindr, Persikka ei myy käyttäjädataa mainostajille eikä näytä mainoksia. Sovellus on suunniteltu positiiviselle, turvalliselle yhteisölle ja tukee sekä suomea että englantia.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Onko Persikka ilmainen?" data-en="Is Persikka free?">Onko Persikka ilmainen?</summary>
+        <p data-fi="Kyllä. Persikka on täysin ilmainen käyttää. Ei piilomaksuja, ei tilauksia, ei mainoksia. Koskaan." data-en="Yes. Persikka is completely free to use. No hidden fees, no subscriptions, no ads. Ever.">Kyllä. Persikka on täysin ilmainen käyttää. Ei piilomaksuja, ei tilauksia, ei mainoksia. Koskaan.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Tarvitseeko Persikkaan asentaa sovellus?" data-en="Do I need to install an app?">Tarvitseeko Persikkaan asentaa sovellus?</summary>
+        <p data-fi="Ei. Persikka toimii suoraan selaimessa ilman asennusta. Avaa vain persikka.net tai makea.persikka.net ja kirjaudu sisään." data-en="No. Persikka runs directly in your browser with no installation. Just open persikka.net or makea.persikka.net and sign in.">Ei. Persikka toimii suoraan selaimessa ilman asennusta. Avaa vain persikka.net tai makea.persikka.net ja kirjaudu sisään.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Miten löydän gay-miehiä Suomessa?" data-en="How can I find gay men in Finland?">Miten löydän gay-miehiä Suomessa?</summary>
+        <p data-fi="Persikka käyttää sijaintipohjaista löytämistä — näet käyttäjät etäisyyden mukaan järjestettynä. Luo ilmainen profiili ja aloita löytäminen heti." data-en="Persikka uses location-based discovery — you see users sorted by distance. Create a free profile and start discovering right away.">Persikka käyttää sijaintipohjaista löytämistä — näet käyttäjät etäisyyden mukaan järjestettynä. Luo ilmainen profiili ja aloita löytäminen heti.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Onko Persikka turvallinen?" data-en="Is Persikka safe?">Onko Persikka turvallinen?</summary>
+        <p data-fi="Kyllä. Persikka on suunniteltu alusta asti turvalliseksi ja inklusiiviseksi tilaksi. Emme myy tietojasi emmekä näytä mainoksia. Voit kirjautua myös ilman salasanaa kertakäyttöisellä koodilla." data-en="Yes. Persikka is designed from the ground up to be a safe and inclusive space. We do not sell your data and show no ads. You can also log in without a password using a one-time code.">Kyllä. Persikka on suunniteltu alusta asti turvalliseksi ja inklusiiviseksi tilaksi. Emme myy tietojasi emmekä näytä mainoksia. Voit kirjautua myös ilman salasanaa kertakäyttöisellä koodilla.</p>
+      </details>
+
+      <details>
+        <summary data-fi="Toimiiko Persikka englanniksi?" data-en="Does Persikka work in English?">Toimiiko Persikka englanniksi?</summary>
+        <p data-fi="Kyllä. Persikka tukee sekä suomea että englantia. Voit vaihtaa kielen milloin tahansa sovelluksessa." data-en="Yes. Persikka fully supports both Finnish and English. You can switch languages at any time inside the app.">Kyllä. Persikka tukee sekä suomea että englantia. Voit vaihtaa kielen milloin tahansa sovelluksessa.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- VIBE -->
+<section aria-label="Yhteisö">
+  <div class="inner" style="text-align:center">
+    <div class="vibe-box">
+      <div class="vibe-emoji" aria-hidden="true">🍑🐻🌸</div>
+      <h2 data-fi="Positiivinen yhteisö, oikeasti." data-en="A genuinely positive community.">Positiivinen yhteisö, oikeasti.</h2>
+      <p data-fi="Persikka on rakennettu ilolla ja huolella. Täällä jokainen on tervetullut omana itsenään — karhuista twinkeihin, karvoilla tai ilman. Ei mustaa, ei oranssia. Vain lämpimiä värejä ja aitoja kohtaamisia." data-en="Persikka is built with joy and care. Everyone is welcome here as themselves — bears to twinks, with or without fur. No black, no orange. Just warm colours and genuine encounters.">Persikka on rakennettu ilolla ja huolella. Täällä jokainen on tervetullut omana itsenään — karhuista twinkeihin, karvoilla tai ilman. Ei mustaa, ei oranssia. Vain lämpimiä värejä ja aitoja kohtaamisia.</p>
+      <div class="tags">
+        <span class="tag">🏳️‍🌈 Inklusiivinen</span>
+        <span class="tag">🚫 Ei mainoksia</span>
+        <span class="tag">💛 Positiivinen</span>
+        <span class="tag">🔒 Turvallinen</span>
+        <span class="tag">🇫🇮 Suomalainen</span>
+        <span class="tag">🍑 Hauska</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" aria-label="Rekisteröidy">
+  <h2 data-fi="Valmis liittymään?" data-en="Ready to join?">Valmis liittymään?</h2>
+  <p data-fi="Luo tili ilmaiseksi ja aloita löytäminen tänään." data-en="Create a free account and start discovering today.">Luo tili ilmaiseksi ja aloita löytäminen tänään.</p>
+  <a class="btn-white" href="https://makea.persikka.net/register"
+     data-fi="Aloita nyt — se on ilmaista 🍑" data-en="Get started — it's free 🍑">Aloita nyt — se on ilmaista 🍑</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <a class="footer-logo" href="https://persikka.net">🍑 Persikka.net</a>
+    <div class="footer-links">
+      <a href="https://makea.persikka.net/about"   data-fi="Tietoa"           data-en="About">Tietoa</a>
+      <a href="https://makea.persikka.net/privacy"  data-fi="Tietosuojaseloste" data-en="Privacy Policy">Tietosuojaseloste</a>
+      <a href="https://makea.persikka.net/register" data-fi="Rekisteröidy"     data-en="Register">Rekisteröidy</a>
+      <a href="https://makea.persikka.net"          data-fi="Kirjaudu"         data-en="Sign in">Kirjaudu</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2025 Persikka.net</p>
+</footer>
+
+<script>
+  /* ── TAGLINES (from live app) ── */
+  const taglines = [
+    { fi: 'Kiva kuin karhun syli.',      en: 'Warm as a bear\'s hug.',       sub_fi: 'Käyttäjälähtöiset toiminnot ilman rasittavia mainoksia.',      sub_en: 'User-centered features without annoying ads.' },
+    { fi: 'Lämmin kuin sauna.',           en: 'Warm as a sauna.',              sub_fi: 'Persikka.net on ylpeästi suomalainen sovellus.',                sub_en: 'Persikka.net is proudly a Finnish app.' },
+    { fi: 'Kevyt kuin twink.',            en: 'Light as a twink.',             sub_fi: 'Ei vaadi sovelluksen asentamista. Kirjaudu vain sisään.',       sub_en: 'No app install needed. Just sign in and start.' },
+    { fi: 'Terhakka kuin top-poika.',     en: 'Snappy as a top boy.',          sub_fi: 'Ei yllätyksiä, vaan yhteyttä.',                                sub_en: 'No surprises — just connection.' },
+    { fi: 'Kaikenkarvaisille käyttäjille.', en: 'For users of all kinds.',    sub_fi: 'Karhuista saukkoja suurempiin. Karvoilla tai ilman.',           sub_en: 'From bears to otters and beyond. With or without fur.' },
+    { fi: 'Rajaton kuin identiteetti.',   en: 'Boundless as identity.',        sub_fi: 'Turvallinen tila eri sukupuolen ja ilmaisun muodoille.',        sub_en: 'A safe space for all genders and expressions.' },
+    { fi: 'Turvallinen kuin daddy.',      en: 'Safe as a daddy.',              sub_fi: 'Pystyssä jo kahdeksatta vuotta.',                               sub_en: 'Up and running for eight years.' },
+  ];
+
+  let lang = 'fi';
+  let current = 0;
+  const titleEl = document.getElementById('heroTitle');
+  const subEl   = document.getElementById('heroSub');
+  const dotsEl  = document.getElementById('heroDots');
+
+  taglines.forEach((_, i) => {
+    const d = document.createElement('button');
+    d.className = 'hero-dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('role', 'tab');
+    d.setAttribute('aria-label', 'Tagline ' + (i + 1));
+    d.onclick = () => goTo(i);
+    dotsEl.appendChild(d);
+  });
+
+  function goTo(idx) {
+    current = idx;
+    titleEl.classList.add('fade');
+    subEl.classList.add('fade');
+    setTimeout(() => {
+      const t = taglines[idx];
+      titleEl.textContent = lang === 'fi' ? t.fi : t.en;
+      subEl.textContent   = lang === 'fi' ? t.sub_fi : t.sub_en;
+      titleEl.classList.remove('fade');
+      subEl.classList.remove('fade');
+      document.querySelectorAll('.hero-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
+    }, 450);
+  }
+
+  setInterval(() => goTo((current + 1) % taglines.length), 6000);
+
+  /* ── LANGUAGE TOGGLE ── */
+  function setLang(l) {
+    lang = l;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`).classList.add('active');
+    document.querySelectorAll('[data-fi]').forEach(el => {
+      const v = el.getAttribute('data-' + l);
+      if (v) el.innerHTML = v;
+    });
+    document.documentElement.lang = l;
+    const t = taglines[current];
+    titleEl.textContent = l === 'fi' ? t.fi : t.en;
+    subEl.textContent   = l === 'fi' ? t.sub_fi : t.sub_en;
+    // update status text language
+    updateStatusText();
+  }
+
+  /* ── STATUS CHECK ── */
+  const dot = document.getElementById('statusDot');
+  const stxt = document.getElementById('statusText');
+  let isOnline = null;
+
+  function updateStatusText() {
+    if (isOnline === null) stxt.textContent = lang === 'fi' ? 'Tarkistetaan palvelua…' : 'Checking service…';
+    else if (isOnline)     stxt.textContent = lang === 'fi' ? 'Palvelu toimii normaalisti' : 'Service is online';
+    else                   stxt.textContent = lang === 'fi' ? 'Palvelu ei vastaa' : 'Service unavailable';
+  }
+
+  async function checkStatus() {
+    dot.className = 'status-dot checking';
+    updateStatusText();
+    try {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), 5000);
+      await fetch('https://makea.persikka.net/', { method: 'HEAD', signal: ctrl.signal, mode: 'no-cors' });
+      clearTimeout(t);
+      isOnline = true;
+      dot.className = 'status-dot online';
+    } catch {
+      isOnline = false;
+      dot.className = 'status-dot offline';
+    }
+    updateStatusText();
+  }
+
+  checkStatus();
+  setInterval(checkStatus, 60000);
+</script>
+</body>
+</html>
